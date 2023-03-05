@@ -1,0 +1,530 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bloc-page {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*---------------------------------HEADER---------------------------------*/
+
+
+/* logo booki */
+
+#logo {
+    margin-top: 40px;
+    width: 95px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hébergements / activités */
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0px;
+} 
+
+#top-head {
+    display: flex;
+    justify-content: space-between;
+} 
+
+nav ul {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+li {
+    list-style-type: none;
+    border-top: solid 2px white;
+    padding: 45px;
+}
+
+/* animation hébergements / activités */
+
+.menu li:hover a {
+    color: #0065fc;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    border-color: #0065fc;
+}
+
+/* titre / texte */
+
+.titre h1 {
+    margin-top: 0;
+    margin-bottom: -5px;
+} 
+
+
+/*---------------------------------FORMULAIRE---------------------------------*/
+
+#formulaire form {
+    display: flex;
+}
+
+/* saisie recherche */
+
+#ville {
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #f2f2f2;
+    padding: 16px;
+    margin-left: -4px;
+}
+
+#formulaire ::placeholder { 
+    color: black;
+    opacity: 1;
+}
+
+/* bouton  */
+
+#formulaire button {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065fc;
+    margin-left: -4px;
+}
+
+ /* logos */
+
+.search {
+    display: none;
+}
+
+.maps {
+    padding: 18px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* animation bouton */
+
+#formulaire button:hover {
+    cursor: pointer;
+}
+
+
+/*---------------------------------FILTRES---------------------------------*/
+
+#filtres {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+#filtres h2 {
+    text-decoration: none;
+    color: black;
+}
+
+/* logos */
+
+#filtres svg {
+    color: #0065fc;
+    background-color: rgb(222, 235, 255);
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 19px;
+    width: 45px;
+    margin-left: -16px;
+    margin-right: 8px;
+}
+
+/* boutons */
+
+#filtres button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid rgb(217, 217, 217);
+    background-color: white;
+    border-radius: 55px;
+    padding: 0;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* animations boutons */
+
+#filtres button:hover {
+    cursor: pointer;
+    background-color: rgb(217, 217, 217);
+}
+
+#filtres button:hover svg {
+    color: rgb(222, 235, 255);
+    background-color: #0065fc;
+}
+
+#filtres a:hover {
+    color: rgb(77, 76, 76);
+}
+
+
+/*---------------------------------INFORMATIONS---------------------------------*/
+
+#informations {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* logo */
+
+#informations svg {
+    color: #0065fc;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 100px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 12px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+
+/*---------------------------------HÉBERGEMENTS---------------------------------*/
+
+#contenaire {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#hebergements {
+    flex-wrap: wrap;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+/* titres */
+
+#hebergements h2 {
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+#hebergements h3 {
+    margin: 0;  
+    font-size: 1.1vw;
+}
+
+#hebergements p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 1vw;
+}
+
+/* articles */
+
+#hebergements article {
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.article {
+    text-decoration: none;
+    width: 33%;
+}
+
+/* images */
+
+#hebergements img {
+    display: block;
+    margin: auto;
+    border: 4px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width : 95%;
+    height : 9vw;  
+    object-fit: cover; 
+}
+
+#hebergements svg {
+    padding: 2px;
+    height: 12px;
+    margin: -2px;
+}
+
+.etoiles {
+    display: flex;
+    align-items: center;
+    color: #0065fc;
+    margin-top: 2px;
+    padding-bottom: 7px;
+}
+
+.gris {
+    color: rgb(217, 217, 217);
+}
+
+/* texte */
+
+.afficher {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+/* Les plus populaires */
+
+#populaires {
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 40px;
+}
+
+.card-2 {
+    margin-top: 10px;
+}
+
+#populaire-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* titres */
+
+#populaire-2 h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-right: 40px;
+    font-size: 21px;
+}
+
+#populaires h2 {
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+#populaires h3 {
+    margin: 0; 
+    margin-top: 15px;
+    font-size: 1.1vw;
+}
+
+#populaires p {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 3vw;
+    font-size: 1vw;
+}
+
+/* articles */
+
+#populaires article {
+    display: flex;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.article-2 {
+    margin-left: 10px;
+}
+
+/* images */
+
+#populaire-2 svg {
+    padding-top: 30px;
+}
+
+#populaires article svg,
+#hebergements article svg {
+    height: 0.8vw;
+}
+
+.etoile-2 {
+    padding-top: 20px;
+}
+
+#populaires img {
+    display: block;
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width : 35%;
+    height: 9vw;
+    object-fit: cover; 
+}
+
+
+/*---------------------------------ACTIVITÉS---------------------------------*/
+
+.carte {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#activites article {
+    margin: 0;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.colonne {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 21%;
+    margin-right: 2vw;
+}
+
+.colonne-2 {    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    margin: 0;
+}
+
+.colonne:hover {
+    cursor: pointer;
+}
+
+.colonne-2:hover {
+    cursor: pointer;
+}
+
+/* titres */
+
+#activites h2 {
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 1.3vw;
+    width: 100%;
+}
+
+#activites h3 {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 1.1vw;
+}
+
+/* images */
+
+#activites img {
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#activites a {
+    width: 25%;
+    margin-right: 2vw;
+}
+
+.activite-1 {
+    height : 29vw;  
+}
+
+#activite-2 {
+    height: 13vw;  
+}
+
+#activite-3 {
+    height: 10vw;
+}
+
+#activite-4 {
+    height: 10vw;
+}
+
+#activite-5 {
+    height: 12vw;
+}
+
+
+/*---------------------------------FOOTER---------------------------------*/
+
+.footer-2 {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+    padding-right: 300px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}

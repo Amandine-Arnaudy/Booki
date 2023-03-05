@@ -1,0 +1,153 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+/*---------------------------------HÉBERGEMENTS---------------------------------*/
+
+    #contenaire {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+/* les plus populaires */
+
+    #populaires {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-2 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    #populaires article {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+/* titres */
+
+    #populaire-2 {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #populaires h2 {
+        font-size: 18px;
+    }
+
+    #populaires h3 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    #populaires p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+ /* images */
+
+    #populaires img {
+        width: auto;
+        height: 11vw;
+        border-radius: 20px;
+    }
+
+    #populaires article svg {
+        height: 12px;
+    }
+
+/* hébergements à Marseille */
+
+    #hebergements {
+        width: 100%;
+    }
+
+    .article {
+        width: 50%;
+    }
+
+    .afficher {
+        font-size: 15px;
+    }
+
+/* titres */
+
+    #hebergements h2 {
+        font-size: 18px;
+    }
+
+    #hebergements h3 {
+        font-size: 15px;
+    }
+
+    #hebergements p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+/* images */
+
+    #hebergements img {
+        border-radius: 20px;
+        height: 15vw;
+        width: 97%;
+    }
+
+    #hebergements article svg {
+        height: 12px;
+    }
+
+/*---------------------------------ACTIVITÉS---------------------------------*/
+
+    .carte {
+        justify-content: center;
+    }
+
+    #activites a {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+ 
+/* titres */
+
+    #activites h2 {
+        font-size: 18px;
+    }
+
+    #activites h3 {
+        font-size: 15px;
+    }
+
+/* images */
+
+    .activite-1 {
+        height : 40vw;  
+    } 
+
+    .colonne,
+    .colonne-2 {
+        width: 45%;
+        margin: 0;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    #activite-2,
+    #activite-3,
+    #activite-4,
+    #activite-5 {
+        height: 15vw;  
+    }
+
+
+/*---------------------------------FOOTER---------------------------------*/
+
+.footer-2 {
+    padding-right: 50px;
+}
+
+}

@@ -1,0 +1,357 @@
+@media screen and (max-width: 767px) {
+
+body {
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+
+/*---------------------------------HEADER---------------------------------*/
+
+header {
+    margin-top: 20px;
+}
+
+/* logo booki */
+
+#logo {
+    width: 110px;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+    
+/* hébergements / activités */
+
+#top-head {
+    flex-direction: column;
+} 
+
+nav ul {
+    margin-top: 20px;
+    padding: 0px;
+} 
+
+li {
+    width: 50%;
+    border-bottom: solid 3px #f2f2f2;
+    border-top: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* titre / texte */
+
+.titre {
+    margin: 30px;
+}
+
+.titre h1 {
+    margin-bottom: -5px;
+} 
+
+
+/*---------------------------------FORMULAIRE---------------------------------*/
+
+#formulaire form { 
+    margin-left: 30px;
+}
+
+/* saisie recherche */
+
+#ville {
+    font-size: 17px;
+}
+
+/* bouton */
+
+#formulaire span {
+    display: none;
+}
+
+#formulaire button {
+    padding: 17px;
+    border-radius: 17px;
+    margin-left: -15px;
+}
+
+/* logos */
+
+.maps {
+    padding: 19px;
+}
+
+.search {
+    display: block;
+}
+
+/*---------------------------------FILTRES---------------------------------*/
+
+#filtres {
+    margin: 30px 30px 0px;
+    margin-right: 15px;
+}
+
+#filtres h2 {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* boutons */
+
+#filtres button {
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+
+/*---------------------------------INFORMATIONS---------------------------------*/
+
+#informations {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* logo */
+
+#informations svg {
+    padding-right: 8px;
+    margin: 12px;
+}
+
+
+/*---------------------------------HÉBERGEMENTS---------------------------------*/
+
+#contenaire {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card {
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+#hebergements {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0px;
+}
+
+/* articles */
+
+#hebergements article {
+    display: block;
+    justify-content: center;
+    margin: 10px;
+    width: 260%;
+}
+
+.article {
+    margin: 0;
+}
+
+/* titres */
+
+#hebergements h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+#hebergements h3 {
+    font-size: 4vw;
+}
+
+#hebergements p {
+    font-size: 3vw;
+}
+
+/* images */
+
+#hebergements article svg {
+    height: 3vw;
+}
+
+#hebergements img {
+    width : 97%;
+    height : 30vw;
+}
+
+.etoiles {
+    margin-top: 3px;
+    margin-right: 80px;
+}
+
+.etoiles svg {
+    padding: 2px;
+    height: 12px;
+    margin: -2px;
+}
+
+.afficher {
+    margin: 0px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+
+/* Les plus populaires */
+
+#populaires {
+    margin-left: 0px;
+    margin-right: 0;
+    border-radius: 0px;
+    width: 100%;
+}
+
+#populaire-2 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+/* titres */
+
+#populaire-2 h2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#populaires h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0px; 
+}
+
+#populaires h3 {
+    font-size: 4vw;
+}
+
+#populaires p {
+    margin-bottom: 15px;
+    font-size: 3vw;
+}
+
+/* articles */
+
+#populaires article {
+    margin: 30px;
+    margin-top: -15px;
+    width: 85%;
+}
+
+.article-2 {
+    margin: 0px;
+    margin-left: 3vw;
+    margin-top: 5px;
+}
+
+/* images */
+
+#populaires img {
+    display: block;
+    width: 30%;
+    height: 30vw;
+}
+
+#populaires article svg {
+    height: 3vw;
+    padding-top: 20px;
+}
+
+#populaire-2 svg {
+    padding: 0px;
+}
+
+.etoiles-2 svg {
+    height: 20px;
+}
+
+/*---------------------------------ACTIVITÉS---------------------------------*/
+
+.carte {
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+#activites {
+    margin-left: 30px;
+}
+
+#activites article {
+    margin-top: 20px;                                      
+    width: 360%;
+}
+
+/* titres */
+
+#activites h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+#activites h3 {
+    margin: 0;  
+    padding: 10px;
+    margin-left: 12px;
+    font-size: 4vw;
+}
+
+/* images */
+
+#activites img {
+    height: 30vw;
+}
+
+#activite-2 {
+    height: 30vw;
+}
+
+.colonne-2,
+.colonne {
+    width: 25%;
+}
+
+/*---------------------------------FOOTER---------------------------------*/
+
+.footer-2 {
+    padding: 30px 0 30px 30px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+}
+

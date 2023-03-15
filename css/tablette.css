@@ -1,0 +1,125 @@
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    /* --- Filters --- */
+
+    .filters h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .filters {
+        gap: 20px;
+    }
+
+    .filters button {
+        padding-right: 15px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .filters i {
+        padding: 10px 5px 10px 5px;
+    }
+
+    /* --- Hebergements et Populaires --- */
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-subtitle {
+        font-size: 14px;
+    }
+
+    .card-content {
+        padding-left: 10px;
+    }
+
+    /* --- Hebergements --- */
+
+    #hebergements {
+        width: 100%;
+    }
+
+    #hebergements p {
+        font-size: 13px;
+    }
+
+    .hebergements-cards img {
+        height: 124px;
+    }
+
+    .hebergements-cards a {
+        width: 31%;
+    }
+
+    .afficher {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* --- Populaires --- */
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards .card {
+        height: 140px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .populaires-cards a {
+        width: 32%;
+    }
+
+    .populaires-cards img {
+        height: 140px;
+    }
+
+    .populaires-cards .card-content {
+        width: 204px;
+    }
+
+    /* --- Activites --- */
+
+    .activites-cards img {
+        height: 200px;
+    }
+
+    .activites-cards .card-title {
+        padding: 16px 11px 16px 19px;
+    }
+
+    .activites-cards .card-content {
+        padding: 0px;
+        height: 70px;
+        display: flex;
+        align-items: center; 
+    }
+ 
+    /* --- Footer --- */
+    
+    #footer-class {
+        width: 80% ;
+    }
+}
+

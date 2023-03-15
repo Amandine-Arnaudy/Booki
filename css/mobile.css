@@ -1,0 +1,235 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    body {
+        margin: 0px
+    }
+
+    .title, .form, .filters, .informations {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    /* --- Top-head --- */
+
+    .top-head {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .logo {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    nav ul {
+        gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu li {
+        width: 50%;
+        border-bottom: solid 3px var(--main-bg-color);
+        border-top: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menu li:hover {
+        border-color: var(--main-color);
+        cursor: pointer;
+        border-top: none;
+    }
+
+    .menu a:hover {
+        border-top: none;
+
+    }
+
+    /* --- Title --- */
+
+    .title {
+        margin-top: 35px;
+    }
+
+    /* --- Form --- */
+
+    .formulaire {
+        width: 100%;
+    }
+
+    .form button {
+        padding: 15px;
+        padding-right: 18px;
+        border-radius: 15px;
+        margin-left: -12px;
+    }
+
+    .ville {
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .form span {
+        display: none;
+    }
+    
+    .fa-magnifying-glass {
+        color: white;
+    }
+
+    .fa-magnifying-glass {
+        display: block;
+    }
+
+    /* --- Filters --- */
+
+    .filters button {
+        flex: 1 1 47%;
+        font-size: 14px;
+    }
+
+    .filters {
+        margin-bottom: 20px;
+    }
+
+    /* --- Hebergements et Populaires --- */
+
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .populaires-cards .card-title,
+    .hebergements-cards .card-title {
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle,
+    .hebergements-cards .card-subtitle {
+        font-size: 14px;
+    }
+
+    /* --- Hebergements --- */
+
+    #hebergements {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 20px 20px 30px 20px;
+    }
+
+    .hebergements-title h2 {
+        margin-top: 15px;
+    }
+
+    .hebergements-cards {
+        width: 103%;
+        margin: 0;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #hebergements article {
+        width: 300%;
+    }
+
+    .hebergements-cards a {
+        margin-bottom: 15px;
+    }
+
+    .hebergements-cards img {
+        height: 124px;
+    }
+
+    .afficher {
+        margin-top: 5px;
+    }
+
+    /* --- Populaires --- */
+
+    .populaires {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+        gap: 0px;
+        width: 103%;
+    }
+
+    .populaires article {
+        width: 300%;
+    }
+
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+
+    .populaires-cards img {
+        height: 140px;
+    }
+
+    /* --- Activites --- */
+
+    #activites {
+        padding: 30px;
+        padding-top: 55px;
+    }
+
+    #activites .section-title {
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .activites-cards a {
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    #activites article {
+        width: 400%;
+    }
+
+    .activites-cards img {
+        height: 140px;
+    }
+
+    .activites-cards h3 {
+        font-size: 16px;
+    }
+
+    /* --- Footer --- */
+
+    #footer-class {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+}
